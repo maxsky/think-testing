@@ -15,6 +15,10 @@ class ExampleTest extends TestCase
 
     public function testBasicExample()
     {
-        $this->visit('/')->see('ThinkPHP');
+        $string = 'ThinkPHP';
+
+        echo $string;
+
+        $this->assertStringContainsString($string, 'ThinkPHP');
     }
 }
