@@ -16,7 +16,7 @@ class TestCase extends \think\testing\TestCase
 {
     protected $currentUri = 'http://localhost';
 
-    protected function setUp()
+    protected function setUp(): void
     {
         require_once __DIR__ . '/../thinkphp/base.php';
 
