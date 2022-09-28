@@ -20,13 +20,10 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\testing\\": "src",
-            "think\\": "../../../thinkphp/library/think",
-            "traits\\": "../../../thinkphp/library/traits"
+            "think\\testing\\": "src"
         },
         "files": [
-            "src/config.php",
-            "../../../thinkphp/helper.php"
+            "src/config.php"
         ]
     },
     "config": {
